@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 
 # assume default location
-breachDataLocation="/opt/breach-parse/BreachCompilation"
+breachDataLocation="/usr/share/BreachCompilation"
 
 if [ $# -lt 2 ]; then
     echo "Breach-Parse v2: A Breached Domain Parsing Tool by Heath Adams"
